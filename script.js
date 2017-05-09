@@ -7,3 +7,13 @@ for (var i=0; for i<30; i++){
     console.log(i);
   }
 }
+
+
+function isPal(word){
+  var ogWord = word;
+  if(ogWord=== word.split(''.reverse().join(''))){
+    console.log('yerp it is');
+  }else {
+    console.log('nope')
+  }
+}
